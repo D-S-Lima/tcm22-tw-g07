@@ -58,11 +58,7 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
-}
-
-a img {
-    border: none;
+    color: #972e2e;
 }
 
 img.alignleft {
@@ -196,8 +192,6 @@ ul.contact li a:before {
     font-weight: 700;
 }
 
-#featured .style1 a {}
-
 .wrapper-style1 {
     overflow: hidden;
     width: 1200px;
@@ -298,10 +292,6 @@ ul.contact li a:before {
     color: #FFF;
 }
 
-/*********************************************************************************/
-/* Menu                                                                           */
-/*********************************************************************************/
-
 #menu {
     position: absolute;
     right: 0;
@@ -344,15 +334,10 @@ ul.contact li a:before {
     color: #8f8f8f;
 }
 
-#menu li:hover a,
-#menu li.active a,
-#menu li.active span {}
 
 #menu .current_page_item a {
     color: #DE6D53;
 }
-
-/** PAGE */
 
 #page {
     overflow: hidden;
@@ -362,8 +347,6 @@ ul.contact li a:before {
 #page a {
     color: #787878;
 }
-
-/** CONTENT */
 
 #content {
     float: left;
@@ -385,8 +368,6 @@ ul.contact li a:before {
     color: #FFF;
 }
 
-/** SIDEBAR */
-
 #sidebar {
     float: right;
     width: 345px;
@@ -395,8 +376,6 @@ ul.contact li a:before {
 #sbox1 {
     margin-bottom: 4em;
 }
-
-/* Footer */
 
 #footer {
     overflow: hidden;
@@ -437,8 +416,6 @@ ul.contact li a:before {
     font-size: 0.90em;
     color: #6F6F6F;
 }
-
-#welcome {}
 
 #welcome .title h2 {
     color: #FFF;
@@ -504,7 +481,7 @@ ul.contact li a:before {
 }
 #Hoop{
     margin-left: 45%;
-  margin-right: 45%;
+    margin-right: 45%;
     margin-bottom: 300px;
 }
 #Shoot {
