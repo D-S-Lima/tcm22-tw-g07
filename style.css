@@ -319,7 +319,7 @@ ul.contact li a.icon-rss:before {
 
 #logo h1 {
     display: inline-block;
-    background: #C42300;
+    background: #c21616;
     padding: 0.50em 1em;
     border-radius: 60px;
     font-size: 2.5em;
@@ -327,7 +327,23 @@ ul.contact li a.icon-rss:before {
     font-weight: 900;
     color: #FFF;
 }
+#logo h1 {
+    background: #940c0c;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+}
 
+.button:active {
+    background: #cf360f;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+}
 #logo a {
     text-decoration: none;
     color: #FFF;
