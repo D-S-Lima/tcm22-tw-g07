@@ -278,7 +278,7 @@ ul.contact li a:before {
 #logo h1:hover {
     background: #940c0c;
     padding: 0.50em 1em;
-    border-radius: 15px;
+    border-radius: 150px;
     font-size: 2em;
     text-transform: uppercase;
     font-weight: 900;
@@ -288,7 +288,7 @@ ul.contact li a:before {
 #logo h1:active {
     background: #22354e;
     padding: 0.50em 1em;
-    border-radius: 20px;
+    border-radius: 200px;
     font-size: 2em;
     text-transform: uppercase;
     font-weight: 900;
