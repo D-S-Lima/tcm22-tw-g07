@@ -1,140 +1,225 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <html>
+    <head xmlns="http://www.w3.org/1999/xhtml"></head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA-Homepage</title>
+    <link rel="icon" type="Logo" href="Logo.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="style.css" rel="stylesheet"/>
+    <link href="script.js" rel="animations"/>
     <style>
         canvas {
             border: 1px solid #d3d3d3;
             background-color: #f1f1f1;
         }
     </style>
-</head>
+    </head>
+    <body onload="startGame()">
+    <div id="header-wrapper">
+        <div id="header" class="container">
+            <div id="logo">
+                <h1><a href="index.html">Basketball</a></h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li class="current_page_item"><a href="index.html" accesskey="1" title="História">História</a></li>
+                    <li><a href="regras.html" accesskey="2" title="Regras">Regras</a></li>
+                    <li><a href="campeonatos.html" accesskey="3" title="Campeonatos">Campeonatos</a></li>
+                    <li><a href="equipa.html" accesskey="4" title="Equipa">Equipa</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="welcome" class="wrapper-style1">
+        <div class="title">
+            <h2>História do NBA</h2>
+            <span class="byline">Damos a conhecer a história do NBA</span> </div>
+        <p>Isto é a<strong>Página principal</strong>Com um link<a href="https://www.nba.com/watch/league-pass-stream?gclid=CjwKCAiAwomeBhBWEiwAM43YIEa91RYCNjH5hocZWSHeu-i8z5fQjyL33DLW22k-MirKxX-UMQ2I2xoCC_4QAvD_BwE&cid=nba:ilp:paid:sem:sa360:na:eg:acq:sub:dtc-acq:INT:G_RoEMEA_Secondary_General_English_HI:NBA_Subscription_Broad:NBA+price:43700073540192483:&ef_id=CjwKCAiAwomeBhBWEiwAM43YIEa91RYCNjH5hocZWSHeu-i8z5fQjyL33DLW22k-MirKxX-UMQ2I2xoCC_4QAvD_BwE:G:s&s_kwcid=AL!5120!3!644489703319!b!!g!!nba%20price!18516308562!143701954962&gclsrc=aw.ds" rel="nofollow">DO SITE DA NBA</a> e mais um <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Ou não</a>, ou outro <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Ou são só Rick Rolls</a>mais texto ou assim, para nos lembrarmos de fazer a tabela</p>
+    </div>
+    <div id="page" class="container">
+        <div id="content">
+            <div class="title">
+                <h2>Sei lá eu</h2>
+    </div>
+                <span class="image image-full"><img src="Image1.jpg" alt="Basketball" /></span> 		<p>Aqui deve ter a história ou assim...</p>
+            <h3>Listas!</h3>
+            <p>Lembrar de fazer listas</p>
+        </div>
+        <div id="sidebar">
+            <div id="sbox1">
+                <div class="title">
+                    <h2>E tabelas também</h2>
+                </div>
+                <ul class="style2">
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="#">será mais para o das equipas</a></li>
+                </ul>
+            </div>
+            <div id="sbox2">
+                <div class="title">
+                    <h2>E a mesma coisa aqui</h2>
+                </div>
+                <ul class="style2">
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="#">será mais para o das equipas</a></li>
+                    <li><a href="Game.html">será mais para o das equipas</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="featured-wrapper">
+        <div id="featured" class="container">
+            <img id="Ball" src="Basketball.png" width="124" height="124" alt="Basketball">
+            <img id="Hoop" src="Hoop.png" width="255" height="223" alt="Basketball">
+            <button id="Shoot" onmousedown="shoot2(-0.2)" onmouseup="shoot2(0.05)">Shoot</button>
+            <script>
 
-<body onload="startGame()">
-    <script>
-
-        var myGamePiece;
-        var myObstacles = [];
-        var myScore;
-
-        function startGame() {
-            myGamePiece = new component(30, 30, "red", 10, 120);
-            myGamePiece.gravity = 0.05;
-            myScore = new component("30px", "Consolas", "black", 280, 40, "text");
-            myGameArea.start();
-        }
-
-        var myGameArea = {
-            canvas: document.createElement("canvas"),
-            start: function () {
-                this.canvas.width = 480;
-                this.canvas.height = 270;
-                this.context = this.canvas.getContext("2d");
-                document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-                this.frameNo = 0;
-                this.interval = setInterval(updateGameArea, 20);
-            },
-            clear: function () {
-                this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
-            }
-        }
-
-        function component(width, height, color, x, y, type) {
-            this.type = type;
-            this.score = 0;
-            this.width = width;
-            this.height = height;
-            this.speedX = 0;
-            this.speedY = 0;
-            this.x = x;
-            this.y = y;
-            this.gravity = 0;
-            this.gravitySpeed = 0;
-            this.update = function () {
-                ctx = myGameArea.context;
-                if (this.type == "text") {
-                    ctx.font = this.width + " " + this.height;
-                    ctx.fillStyle = color;
-                    ctx.fillText(this.text, this.x, this.y);
-                } else {
-                    ctx.fillStyle = color;
-                    ctx.fillRect(this.x, this.y, this.width, this.height);
+                var myGamePiece;
+                var myObstacles = [];
+                var myScore;
+        
+                function startGame() {
+                    myGamePiece = new component(30, 30, "red", 10, 120);
+                    myGamePiece.gravity = 0.05;
+                    myScore = new component("30px", "Consolas", "black", 280, 40, "text");
+                    myGameArea.start();
                 }
-            }
-            this.newPos = function () {
-                this.gravitySpeed += this.gravity;
-                this.x += this.speedX;
-                this.y += this.speedY + this.gravitySpeed;
-                this.hitBottom();
-            }
-            this.hitBottom = function () {
-                var rockbottom = myGameArea.canvas.height - this.height;
-                if (this.y > rockbottom) {
-                    this.y = rockbottom;
+        
+                var myGameArea = {
+                    canvas: document.createElement("canvas"),
+                    start: function () {
+                        this.canvas.width = 480;
+                        this.canvas.height = 270;
+                        this.context = this.canvas.getContext("2d");
+                        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+                        this.frameNo = 0;
+                        this.interval = setInterval(updateGameArea, 20);
+                    },
+                    clear: function () {
+                        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+                    }
+                }
+        
+                function component(width, height, color, x, y, type) {
+                    this.type = type;
+                    this.score = 0;
+                    this.width = width;
+                    this.height = height;
+                    this.speedX = 0;
+                    this.speedY = 0;
+                    this.x = x;
+                    this.y = y;
+                    this.gravity = 0;
                     this.gravitySpeed = 0;
+                    this.update = function () {
+                        ctx = myGameArea.context;
+                        if (this.type == "text") {
+                            ctx.font = this.width + " " + this.height;
+                            ctx.fillStyle = color;
+                            ctx.fillText(this.text, this.x, this.y);
+                        } else {
+                            ctx.fillStyle = color;
+                            ctx.fillRect(this.x, this.y, this.width, this.height);
+                        }
+                    }
+                    this.newPos = function () {
+                        this.gravitySpeed += this.gravity;
+                        this.x += this.speedX;
+                        this.y += this.speedY + this.gravitySpeed;
+                        this.hitBottom();
+                    }
+                    this.hitBottom = function () {
+                        var rockbottom = myGameArea.canvas.height - this.height;
+                        if (this.y > rockbottom) {
+                            this.y = rockbottom;
+                            this.gravitySpeed = 0;
+                        }
+                    }
+                    this.crashWith = function (otherobj) {
+                        var myleft = this.x;
+                        var myright = this.x + (this.width);
+                        var mytop = this.y;
+                        var mybottom = this.y + (this.height);
+                        var otherleft = otherobj.x;
+                        var otherright = otherobj.x + (otherobj.width);
+                        var othertop = otherobj.y;
+                        var otherbottom = otherobj.y + (otherobj.height);
+                        var crash = true;
+                        if ((mybottom < othertop) || (mytop > otherbottom) || (myright < otherleft) || (myleft > otherright)) {
+                            crash = false;
+                        }
+                        return crash;
+                    }
                 }
-            }
-            this.crashWith = function (otherobj) {
-                var myleft = this.x;
-                var myright = this.x + (this.width);
-                var mytop = this.y;
-                var mybottom = this.y + (this.height);
-                var otherleft = otherobj.x;
-                var otherright = otherobj.x + (otherobj.width);
-                var othertop = otherobj.y;
-                var otherbottom = otherobj.y + (otherobj.height);
-                var crash = true;
-                if ((mybottom < othertop) || (mytop > otherbottom) || (myright < otherleft) || (myleft > otherright)) {
-                    crash = false;
+        
+                function updateGameArea() {
+                    var x, height, gap, minHeight, maxHeight, minGap, maxGap;
+                    for (i = 0; i < myObstacles.length; i += 1) {
+                        if (myGamePiece.crashWith(myObstacles[i])) {
+                            return;
+                        }
+                    }
+                    myGameArea.clear();
+                    myGameArea.frameNo += 1;
+                    if (myGameArea.frameNo == 1 || everyinterval(150)) {
+                        x = myGameArea.canvas.width;
+                        minHeight = 20;
+                        maxHeight = 200;
+                        height = Math.floor(Math.random() * (maxHeight - minHeight + 1) + minHeight);
+                        minGap = 50;
+                        maxGap = 200;
+                        gap = Math.floor(Math.random() * (maxGap - minGap + 1) + minGap);
+                        myObstacles.push(new component(10, height, "green", x, 0));
+                        myObstacles.push(new component(10, x - height - gap, "green", x, height + gap));
+                    }
+                    for (i = 0; i < myObstacles.length; i += 1) {
+                        myObstacles[i].x += -1;
+                        myObstacles[i].update();
+                    }
+                    myScore.text = "SCORE: " + myGameArea.frameNo;
+                    myScore.update();
+                    myGamePiece.newPos();
+                    myGamePiece.update();
                 }
-                return crash;
-            }
-        }
-
-        function updateGameArea() {
-            var x, height, gap, minHeight, maxHeight, minGap, maxGap;
-            for (i = 0; i < myObstacles.length; i += 1) {
-                if (myGamePiece.crashWith(myObstacles[i])) {
-                    return;
+        
+                function everyinterval(n) {
+                    if ((myGameArea.frameNo / n) % 1 == 0) { return true; }
+                    return false;
                 }
-            }
-            myGameArea.clear();
-            myGameArea.frameNo += 1;
-            if (myGameArea.frameNo == 1 || everyinterval(150)) {
-                x = myGameArea.canvas.width;
-                minHeight = 20;
-                maxHeight = 200;
-                height = Math.floor(Math.random() * (maxHeight - minHeight + 1) + minHeight);
-                minGap = 50;
-                maxGap = 200;
-                gap = Math.floor(Math.random() * (maxGap - minGap + 1) + minGap);
-                myObstacles.push(new component(10, height, "green", x, 0));
-                myObstacles.push(new component(10, x - height - gap, "green", x, height + gap));
-            }
-            for (i = 0; i < myObstacles.length; i += 1) {
-                myObstacles[i].x += -1;
-                myObstacles[i].update();
-            }
-            myScore.text = "SCORE: " + myGameArea.frameNo;
-            myScore.update();
-            myGamePiece.newPos();
-            myGamePiece.update();
-        }
-
-        function everyinterval(n) {
-            if ((myGameArea.frameNo / n) % 1 == 0) { return true; }
-            return false;
-        }
-
-        function accelerate(n) {
-            myGamePiece.gravity = n;
-        }
-    </script>
-    <br>
-    <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
-    <p>Use the ACCELERATE button to stay in the air</p>
-    <p>How long can you stay alive?</p>
-</body>
-
-</html>
+        
+                function accelerate(n) {
+                    myGamePiece.gravity = n;
+                }
+            </script>
+            <br>
+            <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+            <p>Use the ACCELERATE button to stay in the air</p>
+            <p>How long can you stay alive?</p>
+        </div>
+    </div>
+    <div id="footer" class="container">
+        <div>
+            <div class="title">
+                <h2>Não deve ser preciso...</h2>
+                <span class="byline">será mais para o das equipas</span> </div>
+            <ul class="contact">
+                <li><a href="#" class="icon icon-twitter"><span>Redes sociais</span></a></li>
+                <li><a href="#" class="icon icon-facebook"><span>Redes sociais</span></a></li>
+                <li><a href="#" class="icon icon-dribbble"><span>Redes sociais</span></a></li>
+                <li><a href="#" class="icon icon-tumblr"><span>Redes sociais</span></a></li>
+                <li><a href="#" class="icon icon-rss"><span>Redes sociais</span></a></li>
+            </ul>
+        </div>
+        <p>Não| Sei<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">O que</a> | meter<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" rel="nofollow">aqui</a>.</p>
+    </div>
+    </body>
