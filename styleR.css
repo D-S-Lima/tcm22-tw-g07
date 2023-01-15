@@ -1,3 +1,7 @@
+html{
+    viewport-fit: auto;
+    font-size: calc(15px + 0.1vw);
+}
 @charset 'UTF-8';
 .icon {
     text-decoration: none;
