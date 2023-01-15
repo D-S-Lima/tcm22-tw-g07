@@ -246,10 +246,6 @@ ul.contact li a:before {
     max-width: auto;
 }
 
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
-
 #header-wrapper {
     overflow: hidden;
     background: #FFF;
@@ -259,10 +255,6 @@ ul.contact li a:before {
     position: relative;
     height: 13em;
 }
-
-/*********************************************************************************/
-/* Logo                                                                          */
-/*********************************************************************************/
 
 #logo {
     position: absolute;
@@ -276,7 +268,7 @@ ul.contact li a:before {
     display: inline-block;
     background: #c21616;
     padding: 0.50em 1em;
-    border-radius: 10px;
+    border-radius: 150px;
     font-size: 2em;
     text-transform: uppercase;
     font-weight: 800;
