@@ -67,8 +67,6 @@ a img {
     border: none;
 }
 
-img.border {}
-
 img.alignleft {
     float: left;
 }
@@ -174,54 +172,6 @@ ul.contact li a:before {
     color: #FFFFFF;
     border-radius: 50%;
 }
-
-ul.contact li a.icon-twitter:before {
-    background: #2DAAE4;
-}
-
-ul.contact li a.icon-facebook:before {
-    background: #39599F;
-}
-
-ul.contact li a.icon-dribbble:before {
-    background: #C4376B;
-}
-
-ul.contact li a.icon-tumblr:before {
-    background: #31516A;
-}
-
-ul.contact li a.icon-rss:before {
-    background: #F2600B;
-}
-
-.button {
-    display: inline-block;
-    margin-top: 2em;
-    padding: 1em 3em;
-    background: #C4376B;
-    border-radius: 7px;
-    -moz-transition: opacity 0.25s ease-in-out;
-    -webkit-transition: opacity 0.25s ease-in-out;
-    -o-transition: opacity 0.25s ease-in-out;
-    -ms-transition: opacity 0.25s ease-in-out;
-    transition: opacity 0.25s ease-in-out;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 0.90em;
-    color: #FFF;
-}
-
-.button:hover {
-    background: #D64077;
-}
-
-.button:active {
-    background: #BD3567;
-}
-
-/** WRAPPER */
 
 #wrapper {
     background: #FFF;
