@@ -1,5 +1,6 @@
 var Ball = document.getElementById('Ball')
 var Hoop = document.getElementById('Hoop')
-function Playgame() {
-  
+var myScore;
+function startGame() {
+  Ball.gravity = 0.05;
 }
