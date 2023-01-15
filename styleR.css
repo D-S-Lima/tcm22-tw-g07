@@ -329,20 +329,22 @@ ul.contact li a.icon-rss:before {
 }
 #logo h1:hover {
     background: #940c0c;
-    -moz-transition: opacity 0.25s ease-in-out;
-    -webkit-transition: opacity 0.25s ease-in-out;
-    -o-transition: opacity 0.25s ease-in-out;
-    -ms-transition: opacity 0.25s ease-in-out;
-    transition: opacity 0.25s ease-in-out;
+    padding: 0.50em 1em;
+    border-radius: 3px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #FFF;
 }
 
 #logo h1:active {
     background: #22354e;
-    -moz-transition: opacity 0.25s ease-in-out;
-    -webkit-transition: opacity 0.25s ease-in-out;
-    -o-transition: opacity 0.25s ease-in-out;
-    -ms-transition: opacity 0.25s ease-in-out;
-    transition: opacity 0.25s ease-in-out;
+    padding: 0.50em 1em;
+    border-radius: 30px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #FFF;
 }
 #logo a {
     text-decoration: none;
