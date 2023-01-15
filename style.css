@@ -53,8 +53,6 @@ p {
     line-height: 180%;
 }
 
-strong {}
-
 a {
     color: #222222;
 }
@@ -89,7 +87,7 @@ hr {
     text-align: center;
 }
 
-.title:after {}
+
 
 .title h2 {
     margin: 0 0 1em 0;
