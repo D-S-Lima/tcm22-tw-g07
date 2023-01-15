@@ -498,13 +498,13 @@ ul.contact li a:before {
     float: right;
 }
 #Ball{
-    margin-left: auto;
-  margin-right: auto;
+    margin-left: 50%;
+  margin-right: 50%;
     float:none
 }
 #Hoop{
-    margin-left: auto;
-  margin-right: auto;
+    margin-left: 50%;
+  margin-right: 50%;
     margin-bottom: 300px;
 }
 #Shoot {
