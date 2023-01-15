@@ -317,7 +317,6 @@ ul.contact li a.icon-rss:before {
     left: 0;
     width: 100%;
     margin-top: -0.5em;
-    animation: Bounce 2s linear 0s infinite normal forwards;
 }
 
 #logo h1 {
@@ -338,6 +337,7 @@ ul.contact li a.icon-rss:before {
     text-transform: uppercase;
     font-weight: 900;
     color: #FFF;
+    animation: Bounce 2s linear 0s infinite normal forwards;
 }
 
 #logo h1:active {
