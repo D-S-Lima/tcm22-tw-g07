@@ -322,9 +322,9 @@ ul.contact li a.icon-rss:before {
 #logo h1 {
     display: inline-block;
     background: #c21616;
-    padding: 0.50em 1em;
+    padding: 0.25em 0.5em;
     border-radius: 15px;
-    font-size: 2.5em;
+    font-size: 1em;
     text-transform: uppercase;
     font-weight: 900;
     color: #FFF;
