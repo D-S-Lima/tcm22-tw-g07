@@ -272,12 +272,12 @@ ul.contact li a.icon-rss:before {
 
 .image img {
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
 
 .image-full {
     display: block;
-    width: 100%;
+    max-width: 100%;
     margin: 0 0 2em 0;
 }
 
@@ -293,7 +293,7 @@ ul.contact li a.icon-rss:before {
 
 .image-centered img {
     margin: 0 auto;
-    width: auto;
+    max-width: auto;
 }
 
 /*********************************************************************************/
