@@ -10,7 +10,7 @@ body {
 body {
     margin: 0;
     padding: 0;
-    background: #242838;
+    background: #181a20;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     color: #666666;
@@ -327,7 +327,7 @@ ul.contact li a.icon-rss:before {
     font-weight: 900;
     color: #FFF;
 }
-#logo h1 {
+#logo h1:hover {
     background: #940c0c;
     -moz-transition: opacity 0.25s ease-in-out;
     -webkit-transition: opacity 0.25s ease-in-out;
@@ -336,8 +336,8 @@ ul.contact li a.icon-rss:before {
     transition: opacity 0.25s ease-in-out;
 }
 
-.button:active {
-    background: #cf360f;
+#logo h1:active {
+    background: #22354e;
     -moz-transition: opacity 0.25s ease-in-out;
     -webkit-transition: opacity 0.25s ease-in-out;
     -o-transition: opacity 0.25s ease-in-out;
