@@ -1,7 +1,9 @@
 @charset 'UTF-8';
+
 .icon {
     text-decoration: none;
 }
+
 html,
 body {
     height: 100%;
@@ -302,7 +304,7 @@ ul.contact li a.icon-rss:before {
 
 #header {
     position: relative;
-    height: 13em;
+    height: 5em;
 }
 
 /*********************************************************************************/
@@ -327,6 +329,7 @@ ul.contact li a.icon-rss:before {
     font-weight: 900;
     color: #FFF;
 }
+
 #logo h1:hover {
     background: #940c0c;
     padding: 0.50em 1em;
@@ -346,6 +349,7 @@ ul.contact li a.icon-rss:before {
     font-weight: 900;
     color: #FFF;
 }
+
 #logo a {
     text-decoration: none;
     color: #FFF;
