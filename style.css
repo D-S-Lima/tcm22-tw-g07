@@ -492,8 +492,8 @@ ul.contact li a:before {
 #Shoot {
     display: inline-block;
     background: #c21616;
-    padding: 0.5em 0.7em;
-    border-radius: 15px;
+    padding: 0.50em 1em;
+    border-radius: 150px;
     font-size: 2em;
     text-transform: uppercase;
     font-weight: 800;
