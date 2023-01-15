@@ -562,7 +562,8 @@ margin-left: 700px;
 margin-bottom: 300px;
 }
 #Shoot {
-    text-align: center;
+    margin-left: 20px;
+    margin-bottom: -20px;
 }
 
 #Shoot {
