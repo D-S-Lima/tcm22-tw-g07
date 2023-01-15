@@ -1,4 +1,5 @@
-var Logo = document.getElementById('Ball')
-function Animation() {
-   
-  }
+var Ball = document.getElementById('Ball')
+var Hoop = document.getElementById('Hoop')
+function Playgame(){
+
+}
