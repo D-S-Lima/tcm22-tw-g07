@@ -330,7 +330,7 @@ ul.contact li a.icon-rss:before {
 #logo h1:hover {
     background: #940c0c;
     padding: 0.50em 1em;
-    border-radius: 3px;
+    border-radius: 15px;
     font-size: 2.5em;
     text-transform: uppercase;
     font-weight: 900;
@@ -340,7 +340,7 @@ ul.contact li a.icon-rss:before {
 #logo h1:active {
     background: #22354e;
     padding: 0.50em 1em;
-    border-radius: 30px;
+    border-radius: 20px;
     font-size: 2.5em;
     text-transform: uppercase;
     font-weight: 900;
