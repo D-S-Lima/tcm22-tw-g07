@@ -47,18 +47,20 @@ p,
 ol,
 ul {
     margin-top: 0px;
+    color:white;
 }
 
 p {
     line-height: 180%;
+    color: white;
 }
 
 a {
-    color: #8f8f8f;
+    color:red ;
 }
 
 a:hover {
-    color: #972e2e;
+    color: #6e1010;
 }
 
 img.alignleft {
@@ -499,4 +501,10 @@ ul.contact li a:before {
     text-transform: uppercase;
     font-weight: 800;
     color: #FFF;
+}
+
+table,tr,td{
+    color:white;
+    border-color: white;
+    border-collapse: collapse;
 }
