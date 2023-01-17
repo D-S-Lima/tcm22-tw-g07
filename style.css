@@ -503,7 +503,7 @@ table,tr,td{
     text-align:center;
     border-bottom: 2px solid rgb(73, 73, 73);
 }
-tr{
+th{
     padding: 20px 20px;
     background-color: #17191f83;
 }
