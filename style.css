@@ -465,17 +465,6 @@ ul.contact li a:before {
 #box3 {
     float: right;
 }
-#Ball{
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom: 20px;
-    float:none
-}
-#Hoop{
-    margin-left: 45%;
-    margin-right: 45%;
-    margin-bottom: 300px;
-}
 #Shoot {
     margin-left: 50%;
     margin-bottom: 50%;
