@@ -496,11 +496,11 @@ ul.contact li a:before {
 
 table,tr,td{
     color:rgb(219, 219, 219);
-    border-color: rgb(28, 42, 70);
+    border-color: rgb(24, 25, 26);
     border-collapse: collapse;
     padding: 8px;
     text-align:center;
-    border-bottom: 5px solid rgb(53, 16, 16);
+    border-bottom: 5px solid rgb(22, 22, 22);
 }
 tr{
  background-color: #17191f83;
