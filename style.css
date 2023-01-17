@@ -504,11 +504,11 @@ table,tr,td{
     border-bottom: 2px solid rgb(73, 73, 73);
 }
 tr{
-    padding: 15px 15px;
+    padding: 20px 20px;
     background-color: #17191f83;
 }
 td{
-    padding: 5px 5px;
+    padding: 10px 10px;
     background-color: #1b1c20;
 }
 canvas {
