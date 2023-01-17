@@ -496,17 +496,17 @@ ul.contact li a:before {
 
 table,tr,td{
     color:rgb(201, 201, 201);
-    border-color: rgb(38, 49, 83);
+    border-color: rgb(77, 60, 60);
     border-collapse: collapse;
     padding: 8px;
     text-align:center;
-    border-bottom: 5px solid rgb(28, 37, 61);
+    border-bottom: 5px solid rgb(77, 60, 60);
 }
 tr{
  background-color: #3b2828;
 }
 td{
- background-color: #1d2d42;
+ background-color: #3d4753;
 }
 canvas {
     border:1px solid #d3d3d3;
