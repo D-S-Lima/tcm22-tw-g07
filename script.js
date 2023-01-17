@@ -1,4 +1,3 @@
-<script> 
 var myVideo = document.getElementById("video1"); 
 
 function playPause() { 
@@ -18,4 +17,3 @@ function makeSmall() {
 function makeNormal() { 
     myVideo.width = 420
 } 
-</script>
