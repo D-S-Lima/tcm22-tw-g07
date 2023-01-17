@@ -507,7 +507,8 @@ tr{
  background-color: #17191f83;
 }
 td{
- background-color: #1b1c20;
+    padding: 15px 15px;
+    background-color: #1b1c20;
 }
 canvas {
     border:1px solid #d3d3d3;
