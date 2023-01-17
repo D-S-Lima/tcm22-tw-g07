@@ -495,7 +495,20 @@ ul.contact li a:before {
 }
 
 table,tr,td{
-    color:white;
-    border-color: white;
+    color:rgb(83, 83, 83);
+    border-color: rgb(69, 97, 190);
     border-collapse: collapse;
+    padding: 8px;
+    text-align:center;
+    border-bottom: 2px solid rgb(179, 70, 70);
+}
+tr{
+ background-color: #6e1010;
+}
+td{
+ background-color: #22354e;
+}
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
 }
