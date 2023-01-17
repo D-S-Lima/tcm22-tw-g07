@@ -126,7 +126,7 @@ ul.style2 {
 }
 
 ul.style2 li {
-    border-top: solid 1px #8f8f8f;
+    border-top: solid 1px #353434;
     padding: 0.80em 0;
 }
 
@@ -155,7 +155,7 @@ ul.contact li span {
 }
 
 ul.contact li a {
-    color: #FFF;
+    color: rgb(41, 40, 40);
 }
 
 ul.contact li a:before {
@@ -165,12 +165,12 @@ ul.contact li a:before {
     height: 56px;
     line-height: 56px;
     text-align: center;
-    color: #FFFFFF;
+    color: #252424;
     border-radius: 50%;
 }
 
 #wrapper {
-    background: #FFF;
+    background: rgb(83, 83, 83);
 }
 
 #featured-wrapper {
