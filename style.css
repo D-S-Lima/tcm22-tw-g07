@@ -110,13 +110,17 @@ ul.style1 {
 
 ul.style1 li {
     clear: both;
-    padding: 1.20em 0em;
-    border-top: 1px solid #303030;
+    padding: 1.50em 0em;
+    border-top: 1px solid #5c5c5c;
 }
 
 ul.style1 .first {
     padding-top: 0em;
     border-top: none;
+}
+
+#li-foreground{
+  color:#3f3f3f
 }
 
 ul.style2 {
