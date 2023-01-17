@@ -495,18 +495,18 @@ ul.contact li a:before {
 }
 
 table,tr,td{
-    color:rgb(201, 201, 201);
-    border-color: rgb(77, 60, 60);
+    color:rgb(219, 219, 219);
+    border-color: rgb(28, 42, 70);
     border-collapse: collapse;
     padding: 8px;
     text-align:center;
-    border-bottom: 5px solid rgb(77, 60, 60);
+    border-bottom: 5px solid rgb(53, 16, 16);
 }
 tr{
- background-color: #3b2828;
+ background-color: #0d2e38;
 }
 td{
- background-color: #3d4753;
+ background-color: #162c46;
 }
 canvas {
     border:1px solid #d3d3d3;
