@@ -120,7 +120,7 @@ ul.style1 .first {
 }
 
 #li-foreground{
-    font-size: medium;
+    font-size:large;
     font-family: Arial, sans-serif;
     font-weight: 300;
     color:#686868
@@ -133,8 +133,8 @@ ul.style2 {
 }
 
 ul.style2 li {
-    border-top: solid 1px #353434;
-    padding: 0.80em 0;
+    border-top: solid 2px #6b6b6b;
+    padding: 0.30em 0;
 }
 
 ul.style2 li:first-child {
