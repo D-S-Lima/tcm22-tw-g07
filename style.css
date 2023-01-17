@@ -485,7 +485,7 @@ ul.contact li a:before {
 
 #Shoot {
     display: inline-block;
-    background: #c21616;
+    background: #2a5170;
     padding: 0.50em 1em;
     border-radius: 150px;
     font-size: 2em;
@@ -495,18 +495,18 @@ ul.contact li a:before {
 }
 
 table,tr,td{
-    color:rgb(83, 83, 83);
-    border-color: rgb(69, 97, 190);
+    color:rgb(201, 201, 201);
+    border-color: rgb(38, 49, 83);
     border-collapse: collapse;
     padding: 8px;
     text-align:center;
-    border-bottom: 2px solid rgb(179, 70, 70);
+    border-bottom: 2px solid rgb(61, 28, 28);
 }
 tr{
- background-color: #6e1010;
+ background-color: #3b2222;
 }
 td{
- background-color: #22354e;
+ background-color: #1d2d42;
 }
 canvas {
     border:1px solid #d3d3d3;
