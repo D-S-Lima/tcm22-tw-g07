@@ -217,9 +217,6 @@ ul.contact li a:before {
     clear: both;
 }
 
-.image {
-    display: inline-block;
-}
 
 .image img {
     display: block;
