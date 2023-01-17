@@ -121,8 +121,9 @@ ul.style1 .first {
 
 #li-foreground{
     font-size: medium;
-    font-weight: 300; 
-    color:#3f3f3f
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    color:#686868
 }
 
 ul.style2 {
