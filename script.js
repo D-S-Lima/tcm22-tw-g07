@@ -1,9 +1,21 @@
-function Game() {
-    var Ball = document.getElementById('Ball')
-    var Hoop = document.getElementById('Hoop')
-    var x= 0
-    while(x<300){
-      var element = Ball
-      element.style.margin = "50px"
-    }
-}
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play()
+  else 
+    myVideo.pause()
+    } 
+
+function makeBig() { 
+    myVideo.width = 560} 
+
+function makeSmall() { 
+    myVideo.width = 320
+} 
+
+function makeNormal() { 
+    myVideo.width = 420
+} 
+</script>
