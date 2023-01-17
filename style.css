@@ -120,7 +120,8 @@ ul.style1 .first {
 }
 
 #li-foreground{
-     font-weight: 300; 
+    font-size: medium;
+    font-weight: 300; 
     color:#3f3f3f
 }
 
