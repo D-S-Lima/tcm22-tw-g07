@@ -505,3 +505,52 @@ canvas {
 li{
     padding: 5px;
 }
+ul.contact {
+    overflow: hidden;
+    margin: 0em 0 5em 0;
+    padding-top: 1em;
+    text-align: center;
+}
+
+ul.contact li {
+    display: inline-block;
+    margin-right: 0.5em;
+    font-size: 1.2em;
+}
+
+ul.contact li span {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.contact li a {
+    color: #FFF;
+}
+
+ul.contact li a:before {
+    display: inline-block;
+    background: #3f3f3f;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+ul.contact li a.icon-twitter:before {
+    background: #2DAAE4;
+}
+
+ul.contact li a.icon-facebook:before {
+    background: #39599F;
+}
+
+ul.contact li a.icon-instagram:before {
+    background: #c4379a;
+}
+
+ul.contact li a.icon-tumblr:before {
+    background: #31516A;
+}
