@@ -570,3 +570,9 @@ li {
   #Top:hover {
     background-color: #555;
   }
+  #Hide{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0;
+  }
