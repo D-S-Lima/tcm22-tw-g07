@@ -2,7 +2,7 @@
 
 ## 1 Apresentação do projeto 
 
-O nosso trabalho tem como objetivo principal dar a conhecer dar a conhecer a historia da NBA, as suas regras, os campeonatos e a equipa, os Golden State Warriors.
+O nosso trabalho tem como objetivo principal dar a conhecer a historia da NBA, as suas regras, os campeonatos e uma das equipas, os Golden State Warriors.
 
 ## Interface com o utilizador
 
@@ -36,7 +36,7 @@ Não é necessário qualquer tipo de instalação no nosso web site
 
 ### Regras de utilização
 
-Não é exigida nenhuma autentificação, qualquer utilizador apenas tem que ter acesso à internet e não tem qualquer tipo de restrição 
+Não é exigida nenhuma autentificação, qualquer utilizador apenas tem que ter acesso à internet e não tem qualquer tipo de restrição
  
 ### Ajuda à navegação
 
@@ -44,17 +44,22 @@ O nosso site tem os menus e todos elementos separados com um grande destaque de 
 
 ### Validações de formulários
 
+https://www.freeformatter.com/xml-validator-xsd.html
 
+![XML-XSD-Validation](XML-XSD-Validator.jpg)
 
 ### Validação do HTML e CSS
 
 https://validator.w3.org/nu/
 
+https://codebeautify.org/jsvalidate
+
 ![CSS-Validation](CSS-Validator.jpg)
-![]()
+
+![HTML-Validation](HTML-Validator.jpg)
 
 ### Detalhes de implementação
 
+Cumprimos com quase todos os objetivos mínimos, não conseguindo resolver alguns visto que davam erro. Quisemos pesquisar mais sobre o javascript, pois nos fascinou. Apesar de não conseguirmos ligar o XML ao HTML usando JavaScript quisemos pelo menos usar para modificação de texto e para o scroll to top.
 
-
-
+Experimentamos bastante com CSS HTML e JavaScript tentando cumprir com os objetivos e ao mesmo tempo aprender mais sobre o assunto.
