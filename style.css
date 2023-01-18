@@ -1,11 +1,14 @@
 @charset 'UTF-8';
-html{
+
+html {
     viewport-fit: auto;
     font-size: calc(15px + 0.1vw);
 }
+
 .icon {
     text-decoration: none;
 }
+
 body {
     height: 100%;
 }
@@ -45,7 +48,7 @@ p,
 ol,
 ul {
     margin-top: 0px;
-    color:white;
+    color: white;
 }
 
 p {
@@ -54,7 +57,7 @@ p {
 }
 
 a {
-    color:red ;
+    color: red;
 }
 
 a:hover {
@@ -117,11 +120,11 @@ ul.style1 .first {
     border-top: none;
 }
 
-#li-foreground{
-    font-size:large;
+#li-foreground {
+    font-size: large;
     font-family: Arial, sans-serif;
     font-weight: 300;
-    color:#686868
+    color: #686868
 }
 
 ul.style2 {
@@ -214,6 +217,7 @@ ul.contact li a:before {
 .clearfix {
     clear: both;
 }
+
 .image img {
     display: block;
     max-width: 100%;
@@ -229,6 +233,7 @@ ul.contact li a:before {
     float: left;
     margin: 0 2em 2em 0;
 }
+
 #header-wrapper {
     overflow: hidden;
     background: #FFF;
@@ -465,6 +470,7 @@ ul.contact li a:before {
 #box3 {
     float: right;
 }
+
 #Shoot {
     margin-left: 50%;
     margin-bottom: 50%;
@@ -481,26 +487,32 @@ ul.contact li a:before {
     color: #FFF;
 }
 
-table,tr,td{
+table,
+tr,
+td {
     padding: 10px 10px;
-    color:rgb(219, 219, 219);
+    color: rgb(219, 219, 219);
     border-color: rgb(73, 73, 73);
     border-collapse: collapse;
     padding: 10px;
-    text-align:center;
+    text-align: center;
     border-bottom: 2px solid rgb(73, 73, 73);
 }
-th{
+
+th {
     padding: 15px 15px;
     background-color: #17191f83;
 }
-td{
+
+td {
     padding: 10px 10px;
     background-color: #1b1c20;
 }
-li{
+
+li {
     padding: 5px;
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -509,25 +521,28 @@ li{
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
     background: #3B5998;
     color: white;
-  }
-  .fa-twitter {
+}
+
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
-  .fa-instagram {
+}
+
+.fa-instagram {
     background: #88125b;
     color: white;
-  }
-  .fa-tumblr {
+}
+
+.fa-tumblr {
     background: #2c4762;
     color: white;
-  }
+}
