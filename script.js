@@ -2,7 +2,7 @@ let mybutton = document.getElementById("Top");
 window.onscroll = function () { Scroll() };
 function Scroll() {
   let mybutton = document.getElementById("Top");
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
