@@ -521,6 +521,7 @@ li {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
+    color:white
 }
 
 .fa:hover {
@@ -529,20 +530,16 @@ li {
 
 .fa-facebook {
     background: #3B5998;
-    background-color: white;
 }
 
 .fa-twitter {
     background: #55ACEE;
-    background-color: white;
 }
 
 .fa-instagram {
     background: #88125b;
-    background-color: white;
 }
 
 .fa-tumblr {
     background: #2c4762;
-    background-color: white;
 }
