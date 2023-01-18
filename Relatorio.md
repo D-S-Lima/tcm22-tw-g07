@@ -50,6 +50,8 @@ O nosso site tem os menus e todos elementos separados com um grande destaque de 
 
 https://validator.w3.org/nu/
 
+![CSS-Validation](CSS-Validator.jpg)
+![]()
 
 ### Detalhes de implementação
 
