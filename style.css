@@ -470,23 +470,6 @@ ul.contact li a:before {
 #box3 {
     float: right;
 }
-
-#Shoot {
-    margin-left: 50%;
-    margin-bottom: 50%;
-}
-
-#Shoot {
-    display: inline-block;
-    background: #2a5170;
-    padding: 0.50em 1em;
-    border-radius: 150px;
-    font-size: 2em;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #FFF;
-}
-
 table,
 tr,
 td {
@@ -521,7 +504,6 @@ li {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-    color:white
 }
 
 .fa:hover {
@@ -542,4 +524,7 @@ li {
 
 .fa-tumblr {
     background: #2c4762;
+}
+#icon{
+    color: white;
 }
