@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Titulos>
+	<List>
+        <Number>16</Number>
+		<Name>Los Angeles Lakers</Name>
+        <Ano>1949,1950,1952,1953,1954,1972,1980,1982,1987,1988,2000,2001,2002,2009,2210,2020</Ano>
+        </List>
+		<List>
+        <Number>15</Number>
+		<Name>Boston Celtics</Name>
+        <Ano>1957,1961,1962,1963,1964,1965,1966,1968,1969,1974,1976,1981,1984,1986,2008</Ano>
+        </List>
+		<List>
+        <Number>6</Number>
+		<Name>Golden State Warriors</Name>
+        <Ano>1947,1975,2015,2017,2018,2022</Ano>
+        </List>
+		<List>
+        <Number>6</Number>
+		<Name>Chicago Bulls</Name>
+        <Ano>1991,1992,1993,1996,1997,1998</Ano>
+        </List>
+		<List>
+        <Number>5</Number>
+		<Name>San Antonio Suprs</Name>
+        <Ano>1999,2003,2005,2007,2014</Ano>
+        </List>
+		<List>
+        <Number>3</Number>
+		<Name>Detroit Pistons</Name>
+        <Ano>1989,1990,2004</Ano>
+        </List>
+		<List>
+        <Number>3</Number>
+		<Name>Miami Heat</Name>
+        <Ano>2006,2012,2013</Ano>
+        </List>
+		
+</Titulos>
