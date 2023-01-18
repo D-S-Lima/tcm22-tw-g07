@@ -678,6 +678,7 @@ li {
   
   .inputbox input {
     position: relative;
+    text-align: center;
     width: 100%;
     padding: 20px 10px 10px;
     background: transparent;
