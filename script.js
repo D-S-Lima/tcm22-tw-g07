@@ -20,8 +20,8 @@ function playPause(video1) {
   else
     myVideo.pause()
 } 
-const btn = document.getElementById("playpause");
 
+const btn = document.getElementById("btn");
 btn.addEventListener("click", ()=>{
 
     if(btn.value === "Play"){
