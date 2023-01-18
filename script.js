@@ -36,43 +36,27 @@ function Text() {
 }
 
 
-var n = 0;
-var x;
-displayT(n);
-
-function displayT(n) {
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            titulos(this, n);
-        }
-    };
-    xmlhttp.open("GET", "titulos.xml", true);
-    xmlhttp.send();
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "titulos.xml", true);
+  xmlhttp.send();
 }
-
-function titulos(xml, n) {
-    var xmlDoc = xml.responseXML; 
-    x = xmlDoc.getElementsByTagName("List");
-    document.getElementById("titulos").innerHTML =
-    "Number: " +
-    x[n].getElementsByTagName("NUMBER")[0].childNodes[0].nodeValue +
-    "<br>Name: " +
-    x[n].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
-    "<br>Ano: " + 
-    x[n].getElementsByTagName("ANO")[0].childNodes[0].nodeValue;
-}
-
-function next() {
-if (n < x.length-1) {
-  n++;
-  displayT(n);
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Name</th><th>Ano</th></tr>";
+  var x = xmlDoc.getElementsByTagName("List");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("ANO")[0].childNodes[0].nodeValue +
+    "</td></tr>";
   }
-}
-
-function previous() {
-if (n > 0) {
-  n--;
-  displayT(n);
-  }
+  document.getElementById("titulos").innerHTML = table;
 }
