@@ -540,7 +540,10 @@ ul.contact li a:before {
 }
 
 ul.contact li a.icon-twitter:before {
+    display: inline-block;
+    border-radius: 50%;
     background: #2DAAE4;
+    
 }
 
 ul.contact li a.icon-facebook:before {
