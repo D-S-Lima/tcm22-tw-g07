@@ -242,22 +242,18 @@
 		</div>
 	</div>
 	<div>
+		<br>
 		<h2 class="title">Contacte-nos</h2>
-		<div class="inputbox">
-			<input required="required" type="text">
-			<span>Primeiro Nome</span>
-			<i></i>
-		</div>
-		<div class="inputbox">
-			<input required="required" type="text">
-			<span>Último Nome</span>
-			<i></i>
-		</div>
-		<div class="inputbox">
-			<input required="required" type="text">
-			<span>Entre em contacto</span>
-			<i></i>
-		</div>
+		<br>
+	<form action="mensagens.xml">
+		<label for="fname">Primeiro Nome:</label><br>
+		<input type="text" id="fname" name="fname" value="..."><br>
+		<label for="lname">Último Nome:</label><br>
+		<input type="text" id="lname" name="lname" value="..."><br><br>
+		<label for="lname">Mensagem:</label><br>
+		<textarea name="Mensagem" rows="10" cols="30">...</textarea>
+		<input type="submit" value="Enviar">
+	  </form> 
 	</div>
 	<div id="footer" class="container">
 		<div>
