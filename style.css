@@ -572,15 +572,15 @@ li {
 }
 
 .glow2 {
-    background: rgb(44, 83, 211);
+    background: rgb(45, 101, 221);
     box-shadow: 0 0 25px rgb(45, 164, 243);
 }
 
 .glow2:hover {
     box-shadow: 0 0 5px rgb(55, 173, 228),
-        0 0 25px rgb(102, 205, 231),
-        0 0 50px rgb(241, 84, 79),
-        0 0 100px rgb(250, 162, 162);
+        0 0 25px rgb(102, 154, 231),
+        0 0 50px rgb(79, 144, 241),
+        0 0 100px rgb(162, 222, 250);
 }
 #Hide {
     text-indent: 100%;
