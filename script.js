@@ -21,12 +21,17 @@ function playPause(video1) {
     myVideo.pause()
 } 
 
-const btn = document.getElementById("btn");
-btn.addEventListener("click", ()=>{
+function Text() {
 
-    if(btn.value === "Play"){
-        btn.value = "Pause";
-    }else{
-        btn.value= "Play";
-    }
-})
+  var btn = document.getElementById("Play");
+
+  if (btn.value == "Play") {
+      btn.value = "Pause";
+      btn.innerHTML = "Pause";
+  }
+  else {
+      btn.value = "Play";
+      btn.innerHTML = "Play";
+  }
+
+}
