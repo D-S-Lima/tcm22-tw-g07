@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html>
-
-<head xmlns="http://www.w3.org/1999/xhtml"></head>
+<html lang="pt">
+<head xmlns="http://www.w3.org/1999/xhtml">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NBA-Homepage</title>
-<link rel="icon" type="Logo" href="Logo.jpg">
+<link rel="icon" type="image/x-icon" href="Logo.jpg">
 <meta charset="UTF-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="style.css" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" type="text/css">
 <script src="script.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
 	<span onscroll="Scroll()" id="Hide">Texto escondido</span>
 	<button onclick="GoTop()" id="Top" title="Go to top">Top</button>
@@ -46,7 +43,7 @@
 			<div class="title">
 				<h2>História</h2>
 			</div>
-			<span class="image image-full"><img src="Image1.jpg" alt="Basketball" /></span>
+			<span class="image image-full"><img src="Image1.jpg" alt="Basketball"></span>
 			<p>A National Basketball Association ou como é mais conhecida NBA, é a principal liga de basketball
 				profissional da América do Norte, sendo reconhecida também como a principal liga de basket no mundo
 				inteiro, foi lhe dada este nome apos se fundir com o seu principal rival (National Basketball League).
@@ -63,20 +60,21 @@
 			<p>Esta é a principal liga de toda a américa do Norte apesar de ser composta por 29 equipas dos EUA e apenas
 				uma do Canada.</p>
 			<h3>Lendas</h3>
+		 <li>
 			<ul>Kareem Abdul-Jabbar</ul>
 			<ul>LeBron James</ul>
 			<ul>Kobe Bryant</ul>
 			<ul>Michael Jordan</ul>
 			<ul>Stephen Curry</ul>
 			<ul>Shaquille O'Neal</ul>
-
+		</li>
 		</div>
 		<div id="sidebar">
 			<div id="sbox1">
 				<div class="title">
 					<h2>Conferencia Leste</h2>
 				</div>
-				<table border="4">
+				<table>
 					<tr>
 						<th>Conferencia Leste</th>
 
@@ -154,7 +152,7 @@
 				<div class="title">
 					<h2>Conferencia Oeste</h2>
 				</div>
-				<table border="4">
+				<table>
 					<tr>
 
 						<th>Conferencia Oeste</th>
@@ -241,7 +239,7 @@
 			</div>
 		</div>
 	</div>
-	<div>
+	<div id="form">
 		<form action="mensagens.xml" target="_blank" method="get">
 			<h3 class="title">Contacte-nos</h3>
 			<input type="text" id="fname" placeholder="Primeiro Nome..." required><br>
