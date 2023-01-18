@@ -21,10 +21,11 @@ function playPause(video1) {
     myVideo.pause()
 } 
 function btnText(){
-  const playpause = document.getElementById("playpause");
+  var playpause = document.getElementById("playpause");
   if(playpause.value === "Play"){
   playpause.value = "Pause";
-}else{
+}
+  else{
   playpause.value= "Play";
 }
 }
