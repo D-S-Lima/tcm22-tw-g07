@@ -48,6 +48,7 @@ O nosso site tem os menus e todos elementos separados com um grande destaque de 
 
 ### Validação do HTML e CSS
 
+https://validator.w3.org/nu/
 
 
 ### Detalhes de implementação
