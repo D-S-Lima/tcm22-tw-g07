@@ -561,6 +561,7 @@ li {
 .glow2 {
     padding: 10px 20px;
     border: none;
+    align-items: center;
     font-size: 17px;
     color: #fff;
     border-radius: 25px;
