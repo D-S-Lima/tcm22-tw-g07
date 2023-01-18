@@ -561,7 +561,7 @@ li {
 .glow2 {
     padding: 10px 20px;
     border: none;
-    align-items: center;
+    float: left;
     font-size: 17px;
     color: #fff;
     border-radius: 25px;
@@ -581,6 +581,31 @@ li {
     box-shadow: 0 0 5px rgb(55, 173, 228),
         0 0 25px rgb(102, 154, 231),
         0 0 50px rgb(79, 144, 241),
+        0 0 100px rgb(162, 222, 250);
+}
+.glow3 {
+    padding: 10px 20px;
+    border: none;
+    float: right;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 25px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+}
+
+.glow3 {
+    background: rgb(45, 171, 221);
+    box-shadow: 0 0 25px rgb(45, 164, 243);
+}
+
+.glow3:hover {
+    box-shadow: 0 0 5px rgb(55, 173, 228),
+        0 0 25px rgb(102, 205, 231),
+        0 0 50px rgb(79, 190, 241),
         0 0 100px rgb(162, 222, 250);
 }
 #Hide {
