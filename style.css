@@ -531,7 +531,7 @@ li {
 #playpause{
     display: inline-block;
     background: #2f412b;
-    padding: 2em;
+    padding: 1em;
     border-radius: 90px;
     font-size: 1em;
     text-transform: uppercase;
