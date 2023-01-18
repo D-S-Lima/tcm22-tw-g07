@@ -527,17 +527,6 @@ li {
 .fa-tumblr {
     background: #4a78a7;
 }
-
-#playpause{
-    display: inline-block;
-    background: #2f412b;
-    padding: 1em;
-    border-radius: 90px;
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #FFF;
-}
 .glow {
     padding: 10px 20px;
     border: none;
