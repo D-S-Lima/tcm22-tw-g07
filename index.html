@@ -8,10 +8,13 @@
 <meta charset="UTF-8">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="style.css" rel="stylesheet" />
-<link href="script.js" rel="animations" />
+<script src="script.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body onload="startGame()">
+<body>
+	<span onscroll="Scroll()" id="Hide">Texto escondido</span>
+	<button onclick="GoTop()" id="Top" title="Go to top">Top</button>
 	<div id="header-wrapper">
 		<div id="header" class="container">
 			<div id="logo">
@@ -226,19 +229,40 @@
 			</div>
 		</div>
 	</div>
-	<div id="featured-wrapper">
+	<div id="featured-wrapper2">
 		<div id="featured" class="container">
-			<img id="Ball" src="Basketball.png" width="124" height="124" alt="Basketball">
-			<img id="Hoop" src="Hoop.png" width="255" height="223" alt="Basketball">
-			<button id="Shoot" onclick="Game()">Marcar</button>
+			<div style="text-align:center">
+				<button id="Play" class="glow" onclick="playPause(video1);Text();" value="Play">Play</button>
+				<br><br>
+				<video id="video1" width="740">
+					<source src="video1.mp4" type="video/mp4">
+					Your browser does not support HTML video.
+				</video>
+			</div>
 		</div>
+	</div>
+	<div>
+		<form action="mensagens.xml" target="_blank" method="get">
+			<h3 class="title">Contacte-nos</h3>
+			<input type="text" id="fname" placeholder="Primeiro Nome..." required><br>
+			<input type="text" id="lname" placeholder="Último Nome..." required><br><br>
+			<textarea name="Mensagem" rows="4" placeholder="A sua mensagem..."></textarea>
+			<button type="submit">Enviar</button>
+		</form>
 	</div>
 	<div id="footer" class="container">
 		<div>
 			<div class="title">
-				<h2>Não deve ser preciso...</h2>
-				<span class="byline">será mais para o das equipas</span>
+				<h2>Saiba mais sobre a NBA</h2>
+				<span class="byline">Redes Sociais:</span>
 			</div>
+			<ul class="contact">
+				<a href="https://www.instagram.com/nba/" class="fa fa-instagram"></a>
+				<a href="https://twitter.com/NBA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+					class="fa fa-twitter"></a>
+				<a href="https://www.facebook.com/nba/" class="fa fa-facebook"></a>
+				<a href="https://www.tumblr.com/tagged/nba?sort=top" class="fa fa-tumblr"></a>
+			</ul>
 		</div>
 		<p><a href="index.html">História | </a><a href="regras.html">Regras | </a><a href="campeonatos.html">Campeonatos
 				|</a><a href="equipa.html"> Equipa</a></p>

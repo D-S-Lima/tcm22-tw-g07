@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head xmlns="http://www.w3.org/1999/xhtml"></head>
 <title>NBA-Homepage</title>
 <link rel="icon" type="Logo" href="Logo.jpg">
@@ -7,35 +8,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="script.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-<div id="header-wrapper">
-	<div id="header" class="container">
-		<div id="logo">
-			<h1><a href="index.html">NBA</a></h1>
-		</div>
-		<div id="menu">
-			<ul>
-				<li><a href="index.html" accesskey="1" title="">História</a></li>
-				<li><a href="regras.html" accesskey="2" title="">Regras</a></li>
-				<li class="current_page_item"><a href="campeonatos.html" accesskey="3" title="">Campeonatos</a></li>
-				<li><a href="equipa.html" accesskey="4" title="">Equipa</a></li>
-			</ul>
+	<span onscroll="Scroll()" id="Hide">Texto escondido</span>
+	<button onclick="GoTop()" id="Top" title="Go to top">Top</button>
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="index.html">NBA</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html" accesskey="1" title="">História</a></li>
+					<li><a href="regras.html" accesskey="2" title="">Regras</a></li>
+					<li class="current_page_item"><a href="campeonatos.html" accesskey="3" title="">Campeonatos</a></li>
+					<li><a href="equipa.html" accesskey="4" title="">Equipa</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
-</div>
-<div id="welcome" class="wrapper-style1">
-	<div class="title">
-		<h2>Campeões da NBA</h2>
-		<span class="byline">Damos a conhecer os campões da nba nos ultimos anos</span> </div>
-	<p>Isto é a<strong>Página principal</strong>Com um link<a href="https://www.nba.com/watch/league-pass-stream?gclid=CjwKCAiAwomeBhBWEiwAM43YIEa91RYCNjH5hocZWSHeu-i8z5fQjyL33DLW22k-MirKxX-UMQ2I2xoCC_4QAvD_BwE&cid=nba:ilp:paid:sem:sa360:na:eg:acq:sub:dtc-acq:INT:G_RoEMEA_Secondary_General_English_HI:NBA_Subscription_Broad:NBA+price:43700073540192483:&ef_id=CjwKCAiAwomeBhBWEiwAM43YIEa91RYCNjH5hocZWSHeu-i8z5fQjyL33DLW22k-MirKxX-UMQ2I2xoCC_4QAvD_BwE:G:s&s_kwcid=AL!5120!3!644489703319!b!!g!!nba%20price!18516308562!143701954962&gclsrc=aw.ds" rel="nofollow">DO SITE DA NBA</a> e mais um <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Ou não</a>, ou outro <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Ou são só Rick Rolls</a>mais texto ou assim, para nos lembrarmos de fazer a tabela</p>
-</div>
-<div id="page" class="container">
-	<div id="content">
+	<div id="welcome" class="wrapper-style1">
 		<div class="title">
-			<h2>Equipas vencedoras</h2>
-</div>
-					
+			<h2>Campeões da NBA</h2>
+			<span class="byline">Damos a conhecer os campões da nba nos ultimos anos</span>
+		</div>
+	</div>
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2>Equipas vencedoras</h2>
+			</div>
+
 			<ul>2012-Miami Heat</ul>
 			<ul>2013-Miami Heat</ul>
 			<ul>2014-Santo Antonio Spurs</ul>
@@ -46,125 +52,139 @@
 			<ul>2019-Toronto Raptos</ul>
 			<ul>2020-Los Angeles Lakers</ul>
 			<ul>2021-Milwaukee Bucks</ul>
-			<ul>2022-Golden State Warriors</ul>	
-			<span class="image image-full"><img src="nba-champion-trophy.jpg" alt="Basketball" /></span> 
-		
-	</div>
-	<div id="sidebar">
-		<div id="sbox1">
-			<div class="title">
-				<h2>MVP</h2>
-			</div>
-			<ul class="style2">
-				<li>2012-13:Lebron James</li>
-				<li>2013-14:Lebron James</li>
-				<li>2014-15:Stephen Curry</li>
-				<li>2015-16:Stephen Curry</li>
-				<li>2016-17:Russel Westbrook</li>
-				<li>2017-18:James Harden</li>
-				<li>2018-19:Giannis Antetokounmpo</li>
-				<li>2019-20:Giannis Antetokounmpo</li>
-				<li>2020-21:Nikola Jokic</li>
-				<li>2021-22:Nikola Jokic</li>
-				
+			<ul>2022-Golden State Warriors</ul>
+			<span class="image image-full"><img src="nba-champion-trophy.jpg" alt="Basketball" /></span>
 
-			</ul>
 		</div>
-		<div id="sbox2">
-			<div class="title">
-				<h2>Rookie of the year </h2>
-			</div>
-			<ul class="style2">
-				<li>2012-13:Damian Lillard</li>
-				<li>2013-14:Michael Carter-Williams</li>
-				<li>2014-15:Andrew Wiggins</li>
-				<li>2015-16:Karl-Anthony Towns</li>
-				<li>2016-17:Malcolm Brogdon</li>
-				<li>2017-18:Ben Simmons</li>
-				<li>2018-19:Luka Doncic</li>
-				<li>2019-20:Ja Morant</li>
-				<li>2020-21:LaMelo Ball</li>
-				<li>2021-22:Scottie Barnes</li>
-				
+		<div id="sidebar">
+			<div id="sbox1">
+				<div class="title">
+					<h2>MVP</h2>
+				</div>
+				<ul class="style2">
+					<li>2012-13:Lebron James</li>
+					<li>2013-14:Lebron James</li>
+					<li>2014-15:Stephen Curry</li>
+					<li>2015-16:Stephen Curry</li>
+					<li>2016-17:Russel Westbrook</li>
+					<li>2017-18:James Harden</li>
+					<li>2018-19:Giannis Antetokounmpo</li>
+					<li>2019-20:Giannis Antetokounmpo</li>
+					<li>2020-21:Nikola Jokic</li>
+					<li>2021-22:Nikola Jokic</li>
 
-				
-			</ul>
-		</div>
-	</div>
-</div>
-<div id="featured-wrapper">
-	<div id="featured" class="container">
-		<div id="box1">
-			<div class="title">
-				<h2>Defensive player of the year</h2>
-			</div>
-			<ul class="style1">
-				<li>2011-12 — Tyson Chandler</li>
-				<li>2012-13 — Marc Gasol,</li>
-				<li>2013-14 — Joakim Noah</li>
-				<li>2014-15 — Kawhi Leonard</li>
-				<li>2015-16 — Kawhi Leonard</li>
-				<li>2016-17 — Draymond Green</li>
-				<li>2017-18 — Rudy Gobert</li>
-				<li>2018-19 — Rudy Gobert</li>
-				<li>2019-20 — Giannis Antetokounmpo</li>
-				<li>2020-21 — Rudy Gobert</li>
-				<li>2021-22 — Marcus Smart</li>
-			</ul>
-		</div>
-		<div id="box2">
-			<div class="title">
-				<h2>Most improved player </h2>
-			</div>
-			<ul class="style1">
-			    <li>2011-12 — Ryan Anderson</li>
-				<li>2012-13 — Paul George</li>
-				<li>2013-14 — Goran Dragic</li>
-				<li>2014-15 — Jimmy Butler</li>
-				<li>2015-16 — C.J. McCollum</li>
-				<li>2016-17 — Giannis Antetokounmpo</li>
-				<li>2017-18 — Victor Oladipo</li>
-				<li>2018-19 — Pascal Siakam</li>
-				<li>2019-20 — Brandon Ingram</li>
-				<li>2020-21 — Julius Randle</li>
-				<li>2021-22 — Ja Morant</li>
-			</ul>
-		</div>
-		<div id="box3">
-			<div class="title">
-				<h2>Coach of the year</h2>
-			</div>
-			<ul class="style1">
-				<li>2011-12 — Gregg Popovich</li>
-				<li>2012-13 — George Karl</li>
-				<li>2013-14 — Gregg Popovich</li>
-				<li>2014-15 — Mike Budenholzer</li>
-				<li>2015-16 — Steve Kerr</li>
-				<li>2016-17 — Mike D’Antoni</li>
-				<li>2017-18 — Dwane Casey</li>
-				<li>2018-19 — Mike Budenholzer</li>
-				<li>2019-20 — Nick Nurse</li>
-				<li>2020-21 — Tom Thibodeau</li>
-				<li>2021-22 — Monty Williams</li>
 
-			</ul>
+				</ul>
+			</div>
+			<div id="sbox2">
+				<div class="title">
+					<h2>Rookie of the year </h2>
+				</div>
+				<ul class="style2">
+					<li>2012-13:Damian Lillard</li>
+					<li>2013-14:Michael Carter-Williams</li>
+					<li>2014-15:Andrew Wiggins</li>
+					<li>2015-16:Karl-Anthony Towns</li>
+					<li>2016-17:Malcolm Brogdon</li>
+					<li>2017-18:Ben Simmons</li>
+					<li>2018-19:Luka Doncic</li>
+					<li>2019-20:Ja Morant</li>
+					<li>2020-21:LaMelo Ball</li>
+					<li>2021-22:Scottie Barnes</li>
+
+
+
+				</ul>
+			</div>
 		</div>
 	</div>
-</div>
-<div id="footer" class="container">
-	<div>
-		<div class="title">
-			<h2>Não deve ser preciso...</h2>
-			<span class="byline">será mais para o das equipas</span> </div>
-		<ul class="contact">
-			<li><a href="#" class="icon icon-twitter"><span>Redes sociais</span></a></li>
-			<li><a href="#" class="icon icon-facebook"><span>Redes sociais</span></a></li>
-			<li><a href="#" class="icon icon-dribbble"><span>Redes sociais</span></a></li>
-			<li><a href="#" class="icon icon-tumblr"><span>Redes sociais</span></a></li>
-			<li><a href="#" class="icon icon-rss"><span>Redes sociais</span></a></li>
-		</ul>
+	<div id="featured-wrapper">
+		<div id="featured" class="container">
+			<div id="box1">
+				<div class="title">
+					<h2>Defensive player of the year</h2>
+				</div>
+				<ol class="style1" id="li-foreground">
+					<li>2011-12 — Tyson Chandler</li>
+					<li>2012-13 — Marc Gasol,</li>
+					<li>2013-14 — Joakim Noah</li>
+					<li>2014-15 — Kawhi Leonard</li>
+					<li>2015-16 — Kawhi Leonard</li>
+					<li>2016-17 — Draymond Green</li>
+					<li>2017-18 — Rudy Gobert</li>
+					<li>2018-19 — Rudy Gobert</li>
+					<li>2019-20 — Giannis Antetokounmpo</li>
+					<li>2020-21 — Rudy Gobert</li>
+					<li>2021-22 — Marcus Smart</li>
+				</ol>
+			</div>
+			<div id="box2">
+				<div class="title">
+					<h2>Most improved player </h2>
+				</div>
+				<ol class="style1" id="li-foreground">
+					<li>2011-12 — Ryan Anderson</li>
+					<li>2012-13 — Paul George</li>
+					<li>2013-14 — Goran Dragic</li>
+					<li>2014-15 — Jimmy Butler</li>
+					<li>2015-16 — C.J. McCollum</li>
+					<li>2016-17 — Giannis Antetokounmpo</li>
+					<li>2017-18 — Victor Oladipo</li>
+					<li>2018-19 — Pascal Siakam</li>
+					<li>2019-20 — Brandon Ingram</li>
+					<li>2020-21 — Julius Randle</li>
+					<li>2021-22 — Ja Morant</li>
+				</ol>
+			</div>
+			<div id="box3">
+				<div class="title">
+					<h2>Coach of the year</h2>
+				</div>
+				<ol class="style1" id="li-foreground">
+					<li>2011-12 — Gregg Popovich</li>
+					<li>2012-13 — George Karl</li>
+					<li>2013-14 — Gregg Popovich</li>
+					<li>2014-15 — Mike Budenholzer</li>
+					<li>2015-16 — Steve Kerr</li>
+					<li>2016-17 — Mike D’Antoni</li>
+					<li>2017-18 — Dwane Casey</li>
+					<li>2018-19 — Mike Budenholzer</li>
+					<li>2019-20 — Nick Nurse</li>
+					<li>2020-21 — Tom Thibodeau</li>
+					<li>2021-22 — Monty Williams</li>
+
+				</ol>
+			</div>
+			<br></br>
+			<div>
+				<form action="titulos.xml">
+					<button class="glow2">Titulos XML</button>
+				</form>
+			</div>
+			<div>
+				<form action="titulos.xsd">
+					<button class="glow3">Titulos XSD</button>
+				</form>
+			</div>
+		</div>
 	</div>
-	<p><a href="index.html">História | </a><a href="regras.html">Regras | </a><a href="campeonatos.html" >Campeonatos |</a><a href="equipa.html"> Equipa</a></p>
-</div>
+	<div id="footer" class="container">
+		<div>
+			<div class="title">
+				<h2>Saiba mais sobre a NBA</h2>
+				<span class="byline">Redes Sociais:</span>
+			</div>
+			<ul class="contact">
+				<a href="https://www.instagram.com/nba/" class="fa fa-instagram"></a>
+				<a href="https://twitter.com/NBA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+					class="fa fa-twitter"></a>
+				<a href="https://www.facebook.com/nba/" class="fa fa-facebook"></a>
+				<a href="https://www.tumblr.com/tagged/nba?sort=top" class="fa fa-tumblr"></a>
+			</ul>
+		</div>
+		<p><a href="index.html">História | </a><a href="regras.html">Regras | </a><a href="campeonatos.html">Campeonatos
+				|</a><a href="equipa.html"> Equipa</a></p>
+	</div>
 </body>
+
 </html>

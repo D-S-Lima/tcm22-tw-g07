@@ -8,9 +8,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="script.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+	<span onscroll="Scroll()" id="Hide">Texto escondido</span>
+	<button onclick="GoTop()" id="Top" title="Go to top">Top</button>
 	<div id="header-wrapper">
 		<div id="header" class="container">
 			<div id="logo">
@@ -39,8 +43,11 @@
 				<h2>Diferença entre a FIBA e a NBA</h2>
 			</div>
 			<span class="image image-full"><img src="Image.jpg" alt="Basketball" /></span>
-			<p>Na NBA o limite de faltas coletivas  e individuais é no maximo de 6 durante todo o jogo, mas na FIBA tem o limite de 5 faltas coletivas e individuais </p>
-            <p>Na liga norte americana quando a bola toca no aro do cesto , não se pode tocar na mesma, enquanto que na FIBA se bola tiver no aro, mas não em ascendência, qualquer outro jogador pode tentar impedir que bola entre no cesto</p>
+			<p>Na NBA o limite de faltas coletivas e individuais é no maximo de 6 durante todo o jogo, mas na FIBA tem o
+				limite de 5 faltas coletivas e individuais </p>
+			<p>Na liga norte americana quando a bola toca no aro do cesto , não se pode tocar na mesma, enquanto que na
+				FIBA se bola tiver no aro, mas não em ascendência, qualquer outro jogador pode tentar impedir que bola
+				entre no cesto</p>
 			<p>Além disso, a NBA trabalha com mais um arbitro.</p>
 		</div>
 		<div id="sidebar">
@@ -53,82 +60,38 @@
 					<li>O jogo começa com uma bola ao alto no meio de campo</li>
 					<li>Cada equipa tem um tempo de 24 segundos para atacar </li>
 					<li>Caso percam a bola ou a bola toca no aro do cesto o tempo volta a 14 segundos</li>
-					<li>Não tem limite de substituições os jogadores podem entrar e sair as vezes que o treinador entender</li>
-					<li>A partir do momento que a equipa que esta a atacar passa o meio de campo não pode voltar atras, caso volta é considerado falta</li>
+					<li>Não tem limite de substituições os jogadores podem entrar e sair as vezes que o treinador
+						entender</li>
+					<li>A partir do momento que a equipa que esta a atacar passa o meio de campo não pode voltar atras,
+						caso volta é considerado falta</li>
 					<li>Se os atacantes acertarem no cesto dentro de área é lhes atribuído 2 pontos</li>
 					<li>Se acertarem fora dessa área conta como 3 pontos</li>
-					<li>Se o atacante sofre uma falta ao lançar é considerada uma shooting foul, se ele ia lançar de 2 é lhe atribuído 2 free trows, se lançar de 3 é lhe atribuído 3 free trows</li>
-					<li>A cada período as equipas podem cometer quatro faltas porque a partir da 5 é dado 2 free trows ao adversário </li>
-					<li>Se um jogador lançar e acertar, mas sofrer falta os pontos contam na mesma e recebe o and one, que significa receber um free trow </li>
-				</ul>
-			</div>
-			<div id="sbox2">
-				<div class="title">
-					<h2></h2>
-				</div>
-				
-				
-				
-			</div>
-		</div>
-	</div>
-	<div id="featured-wrapper">
-		<div id="featured" class="container">
-			<div id="box1">
-				<div class="title">
-					<h2>Ou tabelas aqui</h2>
-				</div>
-				<ul class="style1">
-					<li class="first"><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
-				</ul>
-			</div>
-			<div id="box2">
-				<div class="title">
-					<h2>será mais para o das equipas</h2>
-				</div>
-				<ul class="style1">
-					<li class="first"><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
-				</ul>
-			</div>
-			<div id="box3">
-				<div class="title">
-					<h2>será mais para o das equipas</h2>
-				</div>
-				<ul class="style1">
-					<li class="first"><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
-					<li><a href="#">será mais para o das equipas</a></li>
+					<li>Se o atacante sofre uma falta ao lançar é considerada uma shooting foul, se ele ia lançar de 2 é
+						lhe atribuído 2 free trows, se lançar de 3 é lhe atribuído 3 free trows</li>
+					<li>A cada período as equipas podem cometer quatro faltas porque a partir da 5 é dado 2 free trows
+						ao adversário </li>
+					<li>Se um jogador lançar e acertar, mas sofrer falta os pontos contam na mesma e recebe o and one,
+						que significa receber um free trow </li>
 				</ul>
 			</div>
 		</div>
-	</div>
-	<div id="footer" class="container">
-		<div>
-			<div class="title">
-				<h2>Não deve ser preciso...</h2>
-				<span class="byline">será mais para o das equipas</span>
+		<div id="footer" class="container">
+			<div>
+				<div class="title">
+					<h2>Saiba mais sobre a NBA</h2>
+					<span class="byline">Redes Sociais:</span>
+				</div>
+				<ul class="contact">
+					<a href="https://www.instagram.com/nba/" class="fa fa-instagram"></a>
+				<a href="https://twitter.com/NBA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+					class="fa fa-twitter"></a>
+				<a href="https://www.facebook.com/nba/" class="fa fa-facebook"></a>
+				<a href="https://www.tumblr.com/tagged/nba?sort=top" class="fa fa-tumblr"></a>
+				</ul>
 			</div>
-			<ul class="contact">
-				<li><a href="#" class="icon icon-twitter"><span>Redes sociais</span></a></li>
-				<li><a href="#" class="icon icon-facebook"><span>Redes sociais</span></a></li>
-				<li><a href="#" class="icon icon-dribbble"><span>Redes sociais</span></a></li>
-				<li><a href="#" class="icon icon-tumblr"><span>Redes sociais</span></a></li>
-				<li><a href="#" class="icon icon-rss"><span>Redes sociais</span></a></li>
-			</ul>
+			<p><a href="index.html">História | </a><a href="regras.html">Regras | </a><a
+					href="campeonatos.html">Campeonatos |</a><a href="equipa.html"> Equipa</a></p>
 		</div>
-		<p><a href="index.html">História | </a><a href="regras.html">Regras | </a><a href="campeonatos.html">Campeonatos
-				|</a><a href="equipa.html"> Equipa</a></p>
-	</div>
 </body>
 
 </html>
