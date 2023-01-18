@@ -19,7 +19,12 @@ function playPause(video1) {
     myVideo.play()
   else
     myVideo.pause()
-    video1.addEventListener('click', function handleClick() {
-     video1.textContent = 'Pause';
-    });
 } 
+function btnText(){
+  const playpause = document.getElementById("playpause");
+  if(playpause.value === "Play"){
+  playpause.value = "Pause";
+}else{
+  playpause.value= "Play";
+}
+}
