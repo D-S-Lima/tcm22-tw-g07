@@ -527,3 +527,11 @@ li {
 .fa-tumblr {
     background: #4a78a7;
 }
+
+#playpause{
+    display: inline-block;
+    background: #64d360;
+    width: 60px;
+    border-radius: 20%
+
+}
