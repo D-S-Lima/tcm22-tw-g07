@@ -558,7 +558,30 @@ li {
         0 0 50px rgb(55, 228, 83),
         0 0 100px rgb(55, 228, 83);
 }
+.glow2 {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 25px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+}
 
+.glow2 {
+    background: rgb(44, 83, 211);
+    box-shadow: 0 0 25px rgb(45, 164, 243);
+}
+
+.glow2:hover {
+    box-shadow: 0 0 5px rgb(55, 173, 228),
+        0 0 25px rgb(102, 205, 231),
+        0 0 50px rgb(241, 84, 79),
+        0 0 100px rgb(250, 162, 162);
+}
 #Hide {
     text-indent: 100%;
     white-space: nowrap;
