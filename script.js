@@ -35,43 +35,44 @@ function Text() {
   }
 }
 
-var i = 0;
-var x;
-titulo(i);
 
-function titulo(i) {
+var n = 0;
+var x;
+displayT(n);
+
+function displayT(n) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            myFunction(this, i);
+            titulos(this, n);
         }
     };
-    xmlhttp.open("GET", "cd_catalog.xml", true);
+    xmlhttp.open("GET", "titulos.xml", true);
     xmlhttp.send();
 }
 
-function myFunction(xml, i) {
+function titulos(xml, n) {
     var xmlDoc = xml.responseXML; 
-    x = xmlDoc.getElementsByTagName("CD");
+    x = xmlDoc.getElementsByTagName("List");
     document.getElementById("titulos").innerHTML =
-    "Artist: " +
-    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
-    "<br>Title: " +
-    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
-    "<br>Year: " + 
-    x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue;
+    "Number: " +
+    x[n].getElementsByTagName("NUMBER")[0].childNodes[0].nodeValue +
+    "<br>Name: " +
+    x[n].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
+    "<br>Ano: " + 
+    x[n].getElementsByTagName("ANO")[0].childNodes[0].nodeValue;
 }
 
 function next() {
-if (i < x.length-1) {
-  i++;
-  titulo(i);
+if (n < x.length-1) {
+  n++;
+  displayT(n);
   }
 }
 
 function previous() {
-if (i > 0) {
-  i--;
-  titulo(i);
+if (n > 0) {
+  n--;
+  displayT(n);
   }
 }
