@@ -470,6 +470,7 @@ ul.contact li a:before {
 #box3 {
     float: right;
 }
+
 table,
 tr,
 td {
@@ -527,6 +528,7 @@ li {
 .fa-tumblr {
     background: #4a78a7;
 }
+
 .glow {
     padding: 10px 20px;
     border: none;
@@ -538,41 +540,52 @@ li {
     text-transform: uppercase;
     transition: 0.5s;
     transition-property: box-shadow;
-  }
-  
-  .glow {
+}
+
+.glow {
     background: rgb(26, 129, 43);
     box-shadow: 0 0 25px rgb(55, 228, 83);
-  }
-  
-  .glow:hover {
+}
+
+.glow:hover {
     box-shadow: 0 0 5px rgb(55, 228, 83),
-                0 0 25px rgb(55, 228, 83),
-                0 0 50px rgb(55, 228, 83),
-                0 0 100px rgb(55,228,83);
-  }
-  #Top {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
-  
-  #Top:hover {
-    background-color: #555;
-  }
-  #Hide{
+        0 0 25px rgb(55, 228, 83),
+        0 0 50px rgb(55, 228, 83),
+        0 0 100px rgb(55, 228, 83);
+}
+
+#Hide {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     font-size: 0;
-  }
+}
+
+#Top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+}
+
+#Top:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#Top:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
