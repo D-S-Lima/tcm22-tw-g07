@@ -44,8 +44,14 @@ O nosso site tem os menus e todos elementos separados com um grande destaque de 
 
 ### Validações de formulários
 
+
+
 ### Validação do HTML e CSS
 
+
+
 ### Detalhes de implementação
+
+
 
 
