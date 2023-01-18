@@ -190,8 +190,7 @@ ul.contact li a:before {
 #featured-wrapper2 {
     overflow: hidden;
     padding: 5em 0em;
-    background: url(Image2.jpg) repeat;
-    opacity: 50%;
+    background: url(Imagem-cinema.jpg) repeat;
     box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
 }
 #featured {
