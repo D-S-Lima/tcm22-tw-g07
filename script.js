@@ -1,7 +1,7 @@
 let mybutton = document.getElementById("Top");
 window.onscroll = function () { Scroll() };
-
 function Scroll() {
+  let mybutton = document.getElementById("Top");
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
   } else {
@@ -9,6 +9,7 @@ function Scroll() {
   }
 }
 function GoTop() {
+  let mybutton = document.getElementById("Top");
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
