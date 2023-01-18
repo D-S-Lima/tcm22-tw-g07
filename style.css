@@ -187,12 +187,14 @@ ul.contact li a:before {
     background: url(Image2.jpg) repeat;
     box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
 }
+
 #featured-wrapper2 {
     overflow: hidden;
     padding: 5em 0em;
     background-color: #252424;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.404), inset 0px 4px 15px 0px rgba(255, 255, 255, 0.288);
 }
+
 #featured {
     text-shadow: 0px 1px 0px #FFF;
 }
@@ -558,6 +560,7 @@ li {
         0 0 50px rgb(55, 228, 83),
         0 0 100px rgb(55, 228, 83);
 }
+
 .glow2 {
     padding: 10px 20px;
     border: none;
@@ -583,6 +586,7 @@ li {
         0 0 50px rgb(79, 144, 241),
         0 0 100px rgb(162, 222, 250);
 }
+
 .glow3 {
     padding: 10px 20px;
     border: none;
@@ -608,6 +612,7 @@ li {
         0 0 50px rgb(79, 190, 241),
         0 0 100px rgb(162, 222, 250);
 }
+
 #Hide {
     text-indent: 100%;
     white-space: nowrap;
@@ -648,9 +653,9 @@ li {
 #Top:active {
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-   }
-   
-   #Top::after {
+}
+
+#Top::after {
     content: "";
     display: inline-block;
     height: 100%;
@@ -661,69 +666,52 @@ li {
     left: 0;
     z-index: -1;
     transition: all .4s;
-   }
-   
-   #Top::after {
+}
+
+#Top::after {
     background-color: rgba(161, 28, 28)
-   }
-   
-   #Top:hover::after {
+}
+
+#Top:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
-   }
-   .inputbox {
-    position: relative;
-    width: 196px;
-  }
-  
-  .inputbox input {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    padding: 20px 10px 10px;
-    background: transparent;
+}
+
+form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h3 {
+    color: rgb(71, 71, 71);
+    font-weight: 800;
+    margin-bottom: 20px
+}
+
+form input,
+form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
     outline: none;
-    box-shadow: none;
-    border: none;
-    color: #23242a;
-    font-size: 1em;
-    letter-spacing: 0.05em;
-    transition: 0.5s;
-    z-index: 10;
-  }
-  
-  .inputbox span {
-    position: absolute;
-    left: 0;
-    padding: 20px 10px 10px;
-    font-size: 1em;
-    color: #8f8f8f;
-    letter-spacing: 00.05em;
-    transition: 0.5s;
-    pointer-events: none;
-  }
-  
-  .inputbox input:valid ~span,
-  .inputbox input:focus ~span {
-    color: #45f3ff;
-    transform: translateX(-10px) translateY(-34px);
-    font-size: 0,75em;
-  }
-  
-  .inputbox i {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background: #45f3ff;
-    border-radius: 4px;
-    transition: 0.5s;
-    pointer-events: none;
-    z-index: 9;
-  }
-  
-  .inputbox input:valid ~i,
-  .inputbox input:focus ~i {
-    height: 44px;
-  }
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background: rgb(45, 101, 221);
+    color: #FFF;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}

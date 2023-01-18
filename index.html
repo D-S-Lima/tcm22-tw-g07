@@ -242,18 +242,13 @@
 		</div>
 	</div>
 	<div>
-		<br>
-		<h2 class="title">Contacte-nos</h2>
-		<br>
-	<form action="mensagens.xml" target="_blank" method="get">
-		<label id="inputbox" for="fname">Primeiro Nome:</label><br>
-		<input id="inputbox"type="text" id="fname" name="fname" value="..."><br>
-		<label id="inputbox"for="lname">Último Nome:</label><br>
-		<input id="inputbox"type="text" id="lname" name="lname" value="..."><br><br>
-		<label id="inputbox"for="lname">Mensagem:</label><br>
-		<textarea id="inputbox"name="Mensagem" rows="10" cols="30">...</textarea>
-		<input type="submit" value="Enviar">
-	  </form> 
+		<form action="mensagens.xml" target="_blank" method="get">
+			<h3 class="title">Contacte-nos</h3>
+			<input type="text" id="fname" placeholder="Primeiro Nome..." required><br>
+			<input type="text" id="lname" placeholder="Último Nome..." required><br><br>
+			<textarea name="Mensagem" rows="4" placeholder="A sua mensagem..."></textarea>
+			<input type="submit" value="Enviar">
+		</form>
 	</div>
 	<div id="footer" class="container">
 		<div>
